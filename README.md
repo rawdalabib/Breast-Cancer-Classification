@@ -27,6 +27,19 @@ The dataset used in this project is the Breast Cancer Wisconsin Dataset, which c
 The model was evaluated using:
 - Accuracy Score
 - Confusion Matrix
+- Classification Report 
+- K-Fld Cross Validation
+
+### Classification Report
+The classification report was used to evaluate the model using:
+- Precision
+- Recall
+- F1-score
+- Support
+
+### K-Fold Cross Validation
+K-Fold Cross Validation was applied to evaluate the model's performance and ensure that the results are reliable by training and testing the model on different splits of the dataset.
+
 
 ## Results
 The Logistic Regression model was trained to classify breast tumors into:
